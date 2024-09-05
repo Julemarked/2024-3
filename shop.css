@@ -1,0 +1,82 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: relative;
+    height: 317px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image {
+    width: 106%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.header-title {
+    display: flex;
+    z-index: 1;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.header-text.green { color: #05FF00; }
+.header-text.red { color: #FF0000; }
+.header-text.white { color: white; }
+
+.content-section {
+    padding: 20px;
+    display: grid;
+    gap: 250px;
+}
+
+.item-row {
+    justify-content: space-between;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #F4F5F7;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.item-img {
+    width: 100%;
+    height: auto;
+}
+
+.item-info {
+    padding: 10px;
+}
+
+.item-name {
+    font-size: 24px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.item-price {
+    font-size: 20px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
